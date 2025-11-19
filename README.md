@@ -1,9 +1,7 @@
-# dCalendario
-dimensão Calendário para Power BI Service
+## dCalendario
+Tabela dimensão Calendário para Power BI Service
 
-
-Dataflow gen1 Import (PRO)
-Método indicado para os usuários do licenciamento PRO.
+Dataflow gen1 Import (PRO) - Método indicado para os usuários do licenciamento PRO.
 
 Benefício:
 - SSOT;
