@@ -173,7 +173,12 @@ let
   // ============================================================
   
   tabelaFinal = #"Personalização Adicionada",
-  #"Transformar colunas" = Table.TransformColumnTypes(tabelaFinal, {{"Data", type text}}),
+  #"Transformar colunas" = Table.TransformColumnTypes(tabelaFinal, {
+    {"Data", type date}, 
+    {"DiaDaSemana", type text}, 
+    {"Mes", type text}, 
+    {"SemMes", Int64.Type}}),
+  
   #"Substituir erros" = Table.ReplaceErrorValues(#"Transformar colunas", {{"Data", null}})
 in
   #"Substituir erros"
