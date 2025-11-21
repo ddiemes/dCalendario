@@ -12,7 +12,7 @@ Benefício:
 Instruções:
 - Criar um novo dataflow gen1;
 - Criar uma consulta em branco;
-- Copiar o [código](https://github.com/ddiemes/dCalendario/blob/main/C%C3%B3digo%20M) e colar no editor avançado da consulta em branco;
+- Copiar o [código](https://github.com/ddiemes/dCalendario/blob/main/Power%20Query%20(M%20Language)) e colar no editor avançado da consulta em branco;
 - Renomear tabela para dCalendario;
 - Clicar em Salvar e fechar;
 - Salvar o dataflow e dar o nome de dfCalendario;
